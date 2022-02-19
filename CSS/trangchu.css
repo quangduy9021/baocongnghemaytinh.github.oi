@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/* box-sizing hổ trợ cho border-box(width và heigh sẽ bao gồm cho cả phần nội dung, padding và border nhưng không bao gồm margin) */
+}
+
+.box1{
+    width: 149%;
+    margin: auto;
+}
+.boxcenter{
+    text-align: center;
+}
+header img {
+    width: 149%;
+}
+.noidung{
+    width: 100%;
+}
+.boxtrai{
+    width: calc(65% - 5%);
+    float: left;
+    height: 50em;
+    margin-left: 1em;
+}
+
+.boxphai{
+    float: right;
+    width: 35%;
+    min-height: 550px;
+    height: 50em;
+    
+}
+.boxphai img{
+    width: 100;
+}
+
+.box4{
+    width: 23.5em;
+    height: 17em;
+    position: absolute;
+    margin-left: 0.4%;
+    margin-top: 1.4%;
+    border: 0.15em solid rgb(0, 0, 0);
+    font-variant:small-caps;
+    background-color: rgb(199, 240, 240);
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.box6{
+    float: left;
+    width: 11.3em;
+    height: 17em;
+    position: absolute;
+    margin-left: 26.3%;
+    margin-top: 1.4%;
+    border: 0.15em solid rgb(0, 0, 0);
+    font-variant: small-caps;
+    background-color: rgb(199, 240, 240);
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 5%;
+}
+
+.box10{
+    float: left;
+    width: 11.3em;
+    height: 17em;
+    position: absolute;
+    margin-left: 39.2%;
+    margin-top: 1.4%;
+    border: 0.15em solid rgb(0, 0, 0);
+    font-variant: small-caps;
+    background-color: rgb(199, 240, 240);
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.box7{
+    float: left;
+    width: 11.3em;
+    height: 20em;
+    position: absolute; /* Định vị khung */
+    margin-left: 0.4%;
+    margin-top: 20.5%;
+    border: 0.15em solid rgb(0, 0, 0);
+    font-variant: small-caps; /* cỡ chữ */
+    background-color: rgb(199, 240, 240);
+    font-family: 'Roboto Condensed', sans-serif; /* font chữ */
+
+}
+
+.box8{
+    float: left;
+    width: 11.3em;
+    height: 20em;
+    position: absolute;
+    margin-left:13.3%;
+    margin-top: 20.5%;
+    border: 0.15em solid rgb(0, 0, 0);
+    font-variant: small-caps;
+    background-color: rgb(199, 240, 240);
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.box9{
+    float: left;
+    width: 11.3em;
+    height: 20em;
+    position: absolute;
+    margin-left: 26.3%;
+    margin-top: 20.5%;
+    border: 0.15em solid rgb(0, 0, 0);
+    font-variant: small-caps;
+    background-color: rgb(199, 240, 240);
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.box11{
+    float: left;
+    width: 11.3em;
+    height: 20em;
+    position: absolute;
+    margin-left: 39.3%;
+    margin-top: 20.5%;
+    border: 0.15em solid rgb(0, 0, 0);
+    font-variant: small-caps;
+    background-color: rgb(199, 240, 240);
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+.box12{
+    float: right;
+    width: 10em;
+    height: 12em;
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 20.5%;
+    border: 0.15em solid rgb(0, 0, 0);
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+nav{
+    width: 100%;
+    height: 3em;
+    margin: 0;
+    border: 0.2em solid rgb(172, 147, 147);
+    margin-bottom: 0.5em;
+}
+
+li{
+    list-style: none;
+    font-variant: small-caps;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Rubik Beastly';
+    margin-right: 0.1em;
+}
+
+li>a{
+    Color: black;
+    Text-decoration:none;
+    margin-right: 1em;
+    line-height: 3em;
+}
+
+li>a:hover{
+    color: red;
+    Text-decoration:none;
+}
+
+ul li{
+    float: left;
+}
+
+ul li a{
+    padding: 2em;
+}
+
+ul li ul{
+    padding: 0%;
+    display: none;
+    position: absolute;
+    background-color: rgb(207, 177, 140);
+    border: 0.2em solid black;
+}
+
+div>a:hover{
+    color: red;
+    Text-decoration:underline;
+}
+div>a{
+    Color: black;
+    Text-decoration:none;
+}
+
+div img:hover{
+    box-shadow: 0 0 20px rgb(173, 150, 173);
+    background-color: aqua;
+}
+.box13{
+    float: left;
+    width: 30em;
+    height: 5em;
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 1.4%;
+    margin-right: 10px;
+    border: 0.15em solid rgb(0, 0, 0);
+    font-variant: small-caps;
+    background-color: rgb(199, 240, 240);
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 5%;
+    right: 30px;
+}
+.box14{
+    float: left;
+    width: 30em;
+    height: 5em;
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 7.2%;
+    margin-right: 10px;
+    border: 0.15em solid rgb(0, 0, 0);
+    font-variant: small-caps;
+    background-color: rgb(199, 240, 240);
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 5%;
+    right: 30px;
+    
+}
+.box15{
+    float: left;
+    width: 30em;
+    height: 5em;
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 13%;
+    margin-right: 10px;
+    border: 0.15em solid rgb(0, 0, 0);
+    font-variant: small-caps;
+    background-color: rgb(199, 240, 240);
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 5%;
+    right: 30px;
+}
+.box16{
+    float: left;
+    width: 30em;
+    height: 5em;
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 18.7%;
+    margin-right: 10px;
+    border: 0.15em solid rgb(0, 0, 0);
+    font-variant: small-caps;
+    background-color: rgb(199, 240, 240);
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 5%;
+    right: 30px;
+}
+.box17{
+    float: left;
+    width: 30em;
+    height: 5em;
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 24.5%;
+    margin-right: 10px;
+    border: 0.15em solid rgb(0, 0, 0);
+    font-variant: small-caps;
+    background-color: rgb(199, 240, 240);
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 5%;
+    right: 30px;
+}
+body{
+    background: url(../img/bg.jdg.jpg);
+    font-family: sans-serif;
+    text-align: center;
+    margin-right: 500px;
+}
+.footer{
+    bottom: 0;
+    left: 50px;
+    right: 0;
+    line-height: 0;
+    background: #111;
+    width: 149%;
+    padding-top: 40px;
+    color: #fff;
+    clear: both;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+/* gắn icon */
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: aqua;
+}
+/* tạo khung chứa menu footer */
+.footer-bottom{
+    background: #000;
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.footer-bottom p{
+    float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+ }
+.footer-bottom p a{
+   color:#44bae8;
+   font-size: 16px;
+   text-decoration: none;
+ }
+.footer-bottom span{
+     text-transform: uppercase;
+     opacity: .4;
+     font-weight: 200;
+ }
+/* tạo menu trong footer */
+.footer-menu{
+    float: right;
+  }
+  
+.footer-menu ul{
+    display: flex;
+  }
+  
+.footer-menu ul li{
+  padding-right: 10px;
+  display: block;
+  }
+  
+.footer-menu ul li a{
+    color: #cfd2d6;
+    text-decoration: none;
+  }
+  
+.footer-menu ul li a:hover{
+    color: #27bcda;
+  }
+@media (max-width:500px) {
+    .footer-menu ul{
+      display: flex;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+}
+
